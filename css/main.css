@@ -1,0 +1,32 @@
+#box {
+    width: 869px;
+    margin: 150px auto;
+    overflow: hidden;
+}
+#left {
+    width: 300px;
+    float: left;
+}
+#right {
+    width: 555px;
+    float: right;
+    text-indent: 2em;
+}
+#content {
+    word-wrap: break-word;
+    word-break:normal;
+    height: auto;
+}
+ul li {
+    list-style: none;
+    line-height: 40px;
+    border: 1px solid #ccc;
+    text-align: center;
+    cursor: pointer;
+}
+ul li:nth-of-type(1) {
+    background-color: #eee;
+}
+ul li:hover {
+    background-color: #eee;
+}
